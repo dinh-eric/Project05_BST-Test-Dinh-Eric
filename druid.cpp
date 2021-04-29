@@ -10,15 +10,15 @@ Druid::Druid(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t u
 
 void Druid::VineWhip(Entity * target)
 {
-    Attack(target, GetIntelligence() * 0.1, "Vine Whip");
+    Attack(target, GetWisdom() * 0.1, "Vine Whip");
 }
 
 
 void Druid::NatureStrike(Entity *target)
 {
-    Attack(target, GetIntelligence() * 0.5, "Nature Strike");
-    Attack(target, GetIntelligence() * 0.5, "Nature Strike");
-    Attack(target, GetIntelligence() * 0.5, "Nature Strike");
+    Attack(target, GetWisdom() * 0.5, "Nature Strike");
+    Attack(target, GetWisdom() * 0.5, "Nature Strike");
+    Attack(target, GetWisdom() * 0.5, "Nature Strike");
 }
 
 

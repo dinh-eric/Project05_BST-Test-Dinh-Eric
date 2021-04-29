@@ -129,6 +129,16 @@
             "agility" : 17,
             "weapon_damage" : 4, 
             "inventory" : []
+        },
+        {
+            "UID" : 15, 
+            "hp" : 10,
+            "Name" : "Freda Vagabond",
+            "race" : "Elf",
+            "class" : "Druid",
+            "wisdom" : 17,
+            "weapon_damage" : 4, 
+            "inventory" : []
         }
     ],
     "items" : 

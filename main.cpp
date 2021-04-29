@@ -13,7 +13,7 @@
 #include "mage.hpp"
 #include "rogue.hpp"
 #include "priest.hpp"
-
+#include "druid.hpp"
 
 
 int main(int argc, char *argv[])
@@ -84,6 +84,9 @@ int main(int argc, char *argv[])
                     break;
                 case 'm':
                     encounter.AddEntity(new Mage(builder, inventory, id));
+                    break;
+                case 'd':
+                    encounter.AddEntity(new Druid(builder, inventory, id));
                     break;
                 case 'r':
                     encounter.AddEntity(new Rogue(builder, inventory, id));
